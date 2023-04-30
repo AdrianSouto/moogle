@@ -1,31 +1,36 @@
 using System.IO;
 using System;
-static class LeerDocs{
-    static string[] words = new string[]{};
-    public static string[] GetWords(){
-        if(words.Length == 0){
-            //Carpeta de los txt
-            string path = "./Content/";
-            //Obtiene todas las direcciones de los archivos txt en esa carpeta
-            string[] files = Directory.GetFiles(path, "*.txt");
-            //Mete el todos los textos en un string
-            string allText = "";
-            foreach(string file in files){
-                allText += File.ReadAllText(file);
-            }
-            //Le quito los caracteres especiales al string
-            char[] specialChars = {',', '.', ';','"','\'','?','/',':','[',']','{','}','+','=','-','_','(',')','!','@','#','$','%','^','&','*','`','~'};
-            string textWithoutSymbols = "";
-            foreach(char c in allText){
-                if(!specialChars.Contains(c))
-                    textWithoutSymbols += c;
-                
-            }
-            //Convierto las palabras separadas por espacio en un array de strings que omite los elementos vacios
-            words = textWithoutSymbols.Split(new char[]{' ', '\n'}, StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+namespace MoogleEngine;
+public static class LeerDocs{
+    public static List<string> words = new List<string>();
+    public static void GetData(){
+        //Carpeta de los txt
+        string path = "../Content/";
+        //Obtiene todas las direcciones de los archivos txt en esa carpeta
+        string[] files = Directory.GetFiles(path, "*.txt");
+        //Mete el todos los textos en un string
+        string allText = "";
+        foreach(string file in files){
+            string text = File.ReadAllText(file).ToLower();
+            allText += text;
+            List<string> listWords = Utils.RemoveTildes(Utils.MakeList(text).ToList());
+            Vector v = new Vector(
+                file,
+                listWords
+            );
         }
-        return words;
-        
+        //Creo un array de las palabras sin los caracteres especiales
+        words = Utils.RemoveRepeats(Utils.RemoveTildes(Utils.MakeList(allText).ToList()));
+        Matriz.CalculateTFIDF();
     }
+    
         
 }
+
+/*d.TFIDF = d.words.GroupBy(
+                    x => x.Value
+                    )
+                 .ToDictionary(
+                    g => g.Key,
+                    g => ((double) g.Count())
+                );*/
