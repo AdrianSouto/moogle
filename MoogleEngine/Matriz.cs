@@ -15,7 +15,7 @@ static class Matriz{
                 cont++;
             }
         }
-        IDF[w] = cont != 0? Math.Log((double) matrizVectores.Count()/cont): 0;
+        IDF[w] = cont != 0? Math.Log((double) matrizVectores.Count()/cont)+1: 0;
         return IDF[w];
     }
     public static void RecorreVectors(Action<Vector> func){

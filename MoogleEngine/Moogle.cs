@@ -23,7 +23,7 @@ public static class Moogle
             }
             if(containAny){
                 double score = v.ProdEscalar(queryVector);
-                result.Add(new SearchItem(v.GetName(), "Lorem Ipsum", (float) score));
+                result.Add(new SearchItem(v.GetName(), score.ToString(), (float) score));
             }
         }
         return result.OrderByDescending(x=>x.Score).ToArray();
