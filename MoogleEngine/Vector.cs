@@ -27,7 +27,9 @@ class Vector{
     public double ProdEscalar(Vector v){
         double sum = 0;
         foreach(string w in TFIDF.Keys){
-            sum+= this.TFIDF[w] * v.TFIDF[w];
+            if(v.TFIDF[w] != 0){
+                sum+= this.TFIDF[w] * v.TFIDF[w];
+            }
         }
         return sum;
     }
