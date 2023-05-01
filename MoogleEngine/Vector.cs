@@ -46,8 +46,7 @@ class Vector{
     }
     public void CalculateTFIDF(){
         //Ya el IDF debe estar lleno xq esta funcion se usa para el query y el idf se llena al inicio
-        List<string> allWords = LeerDocs.words;
-        foreach(string w in allWords){
+        foreach(string w in Matriz.IDF.Keys){
             if(this.TFIDF.ContainsKey(w)){
                 double x = Matriz.IDF[w];
 

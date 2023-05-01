@@ -24,25 +24,19 @@ static class Matriz{
             return 0;
         }
     }
-    public static void RecorreVectors(Action<Vector> func){
-        foreach(Vector v in matrizVectores.Values){
-            func(v);
-        }
-    }
-    public static void RecorreWords(Action<string> func){
-        List<string> allWords = LeerDocs.words;
-        foreach(string w in allWords){
-            func(w);
-        }
-    }
 
     public static void CalculateTFIDF(){
         List<string> allWords = LeerDocs.words;
         foreach(string w in allWords){
             double idf = CalculateIDF(w);
             foreach(Vector v in matrizVectores.Values){
-                v.TFIDF[w] =  CalculateTF(w, v) * idf;
+                if(IDF.ContainsKey(w)){
+                    v.TFIDF[w] =  CalculateTF(w, v) * idf;
+                }else{
+                    v.TFIDF.Remove(w);
+                }
             }
+            
         }
     }
 
