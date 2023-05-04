@@ -23,7 +23,11 @@ public static class Moogle
             }
             if(containAny){
                 double score = v.ProdEscalar(queryVector);
-                result.Add(new SearchItem(v.GetName(), score.ToString(), (float) score));
+                string text = File.ReadAllText(v.path);
+                int maxTFIDFPos = text.ToLower().IndexOf(queryVector.TFIDF.MaxBy(x=> x.Value).Key);
+                int prevDot = Utils.PrevDot(maxTFIDFPos-50, text);
+                string snipet = text.Substring(prevDot, Utils.NextDot(maxTFIDFPos+100, text) - prevDot);
+                result.Add(new SearchItem(v.GetName(), snipet, (float) score));
             }
         }
         return result.OrderByDescending(x=>x.Score).ToArray();

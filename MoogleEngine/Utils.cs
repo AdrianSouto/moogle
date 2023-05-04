@@ -18,7 +18,24 @@ static class Utils{
         }
         return nList;
     }
-    
+    public static int PrevDot(int pos, string text){
+        pos = Math.Max(pos - 20, 0);
+        if(pos == 0) return 0;
+        int pointPos = text.Substring(pos, 20).IndexOf(".");
+        if(pointPos != -1)
+            return pos + pointPos+1;
+        else
+            return PrevDot(pos, text);
+        
+    }
+    public static int NextDot(int pos, string text){
+        if(pos+20 >= text.Length-1) return text.Length-1;
+        int pointPos = text.Substring(pos, 20).IndexOf(".");
+        if(pointPos != -1)
+            return pos + pointPos;
+        else
+            return NextDot(pos+20, text);
+    }
     public static List<string> RemoveTildes(List<string> l){
         for(int x = 0; x < l.Count();x++){
             string ns = "";
