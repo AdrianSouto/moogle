@@ -21,6 +21,7 @@ public static class Moogle
                 Dictionary<string, double> queryOrdered = queryVector.TFIDF.OrderByDescending(x=>x.Value).ToDictionary(x=>x.Key, x=>x.Value);
                 string word = "";
                 foreach(string w in queryOrdered.Keys){
+                    if(v.TFIDF.ContainsKey(w))
                     {
                         maxTFIDFPos = text.ToLower().IndexOf(w);
                         word = w;
