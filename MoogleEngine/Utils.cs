@@ -9,15 +9,6 @@ static class Utils{
         '¸', '¹', 'º', '»', '¼', '½', '¾', '¿', '×', '÷',' ','\n'};
         return text.ToLower().Split(specialChars, StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries).ToList();
     }
-    public static List<string> RemoveRepeats(List<string> list){
-        List<string> nList = new List<string>();
-        foreach(string s in list){
-            if(!nList.Contains(s)){
-                nList.Add(s);
-            }
-        }
-        return nList;
-    }
     public static int PrevDot(int pos, string text){
         pos = Math.Max(pos - 20, 0);
         if(pos == 0) return 0;

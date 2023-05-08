@@ -1,0 +1,821 @@
+S/N
+yunier arpajon
+365
+--------[ AIDA64 Extreme Edition ]--------------------------------------------------------------------------------------
+
+    Versión                                           AIDA64 v3.00.2529 Beta/es
+    Módulo de rendimiento                             4.0.568-x32
+    Página principal                                  http://www.aida64.com/
+    Tipo de informe                                   Asistente de informes
+    Equipo                                            THINK3-PC
+    Generador                                         Think3
+    Sistema operativo                                 Microsoft Windows 7 Home Premium 6.1.7600.16385 (Win7 RTM)
+    Fecha                                             2015-06-30
+    Hora                                              10:06
+
+
+--------[ Resumen ]-----------------------------------------------------------------------------------------------------
+
+    Equipo:
+      Tipo de equipo                                    ACPI x86-based PC  (Mobile)
+      Sistema operativo                                 Microsoft Windows 7 Home Premium
+      Service Pack del SO                               -
+      Internet Explorer                                 8.0.7600.16385 (IE 8.0 - Windows 7)
+      DirectX                                           DirectX 11.0
+      Nombre del equipo                                 THINK3-PC
+      Nombre de usuario                                 Think3
+      Dominio de inicio de sesión                       Think3-PC
+      Fecha / Hora                                      2015-06-30 / 10:06
+
+    Placa base:
+      Tipo de CPU                                       Mobile DualCore Intel Core i5-460M, 2800 MHz (21 x 133)
+      Nombre de la placa base                           Lenovo ThinkPad Edge
+      Chipset de la placa base                          Intel Ibex Peak-M HM55, Intel Ironlake-M
+      Memoria del sistema                               1972 MB  (DDR3-1333 DDR3 SDRAM)
+      DIMM1: Samsung M471B5773CHS-CH9                   2 GB DDR3-1333 DDR3 SDRAM  (9-9-9-24 @ 666 MHz)  (8-8-8-22 @ 609 MHz)  (7-7-7-20 @ 533 MHz)  (6-6-6-17 @ 457 MHz)  (5-5-5-14 @ 380 MHz)
+      Tipo de BIOS                                      Phoenix (10/14/10)
+      Puerto de comunicación                            Standard Serial over Bluetooth link (COM4)
+      Puerto de comunicación                            Standard Serial over Bluetooth link (COM5)
+
+    Pantalla:
+      Adaptador de video                                ATI Mobility Radeon HD 4500 Series (Microsoft Corporation WDDM 1.1)  (512 MB)
+      Adaptador de video                                ATI Mobility Radeon HD 4500 Series (Microsoft Corporation WDDM 1.1)  (512 MB)
+      Aceleradora 3D                                    ATI Mobility Radeon HD 4530/4570/5145/545v (M92)
+      Monitor                                           Lenovo LP156WH2-TLBA  [15.6" LCD]
+
+    Multimedia:
+      Adaptador de audio                                ATI Radeon HDMI @ ATI RV710/730/740 - High Definition Audio Controller
+      Adaptador de audio                                Realtek ALC269 @ Intel Ibex Peak PCH - High Definition Audio Controller [B-3]
+
+    Almacenamiento:
+      Controlador IDE                                   Standard Dual Channel PCI IDE Controller
+      Controlador de almacenamiento                     AZPT3GMT IDE Controller
+      Unidad de disco                                   Kingston DataTraveler 102 USB Device  (3 GB, USB)
+      Unidad de disco                                   WDC WD3200BEKT-08PVMT1 ATA Device  (320 GB, 7200 RPM, SATA-II)
+      Unidad óptica                                     DTSOFT Virtual CdRom Device
+      Unidad óptica                                     HL-DT-ST DVDRAM GT30N ATA Device  (DVD+R9:6x, DVD-R9:6x, DVD+RW:8x/8x, DVD-RW:8x/6x, DVD-RAM:5x, DVD-ROM:8x, CD:24x/24x/24x DVD+RW/DVD-RW/DVD-RAM)
+      Unidad óptica                                     YJEH YVWTYB4 SCSI CdRom Device
+      Estado SMART de los discos duros                  Aceptar
+
+    Particiones:
+      C: (NTFS)                                         71688 MB (12264 MB libre)
+      D: (FAT32)                                        71670 MB (62528 MB libre)
+      E: (FAT32)                                        71670 MB (61130 MB libre)
+      F: (NTFS)                                         90175 MB (83580 MB libre)
+      Tamaño total                                      298.1 GB (214.4 GB libre)
+
+    Entrada:
+      Teclado                                           Standard PS/2 Keyboard
+      Mouse                                             PS/2 Compatible Mouse
+
+    Red:
+      Dirección IP primaria                             169.254.208.179
+      Dirección MAC primaria                            8C-A9-82-03-98-E4
+      Adaptador de red                                  Bluetooth Device (Personal Area Network)
+      Adaptador de red                                  Intel(R) WiFi Link 1000 BGN  (169.254.208.179)
+      Adaptador de red                                  Microsoft Virtual WiFi Miniport Adapter
+      Adaptador de red                                  Realtek RTL8168D/8111D Family PCI-E Gigabit Ethernet NIC (NDIS 6.20)
+      Módem                                             Standard Modem over Bluetooth link
+
+    Periféricos:
+      Impresora                                         Adobe PDF
+      Impresora                                         Enviar a OneNote 2007
+      Impresora                                         EPSON LX-300+ /II
+      Impresora                                         Fax
+      Impresora                                         HP LaserJet Professional P1566
+      Impresora                                         Microsoft XPS Document Writer
+      Impresora                                         PDFCreator
+      Impresora                                         PDF-XChange 3.0
+      Controlador USB2                                  Intel Ibex Peak PCH - USB 2.0 EHCI Controller 1 [B-3]
+      Controlador USB2                                  Intel Ibex Peak PCH - USB 2.0 EHCI Controller 2 [B-3]
+      Dispositivo USB                                   Generic Bluetooth Adapter
+      Dispositivo USB                                   Generic USB Hub
+      Dispositivo USB                                   Generic USB Hub
+      Dispositivo USB                                   Integrated Camera
+      Dispositivo USB                                   USB Composite Device
+      Dispositivo USB                                   USB Mass Storage Device
+      Batería                                           Microsoft AC Adapter
+      Batería                                           Microsoft ACPI-Compliant Control Method Battery
+      Batería                                           Microsoft Composite Battery
+
+    DMI:
+      Vendedor del BIOS DMI                             LENOVO
+      Versión del BIOS DMI                              80ET42WW (1.19 )
+      Fabricante del sistema DMI                        LENOVO
+      Producto del sistema DMI                          0301A46
+      Versión del sistema DMI                           ThinkPad Edge
+      Número de serie del sistema DMI                   LR669NF
+      UUID del sistema DMI                              CC33F081-4A3111CB-86C4CA6A-0CEAE6AE
+      Fabricante de la placa base DMI                   LENOVO
+      Producto de la placa base DMI                     0301A46
+      Versión de la placa base DMI                      Not Available
+      Número de serie de la placa base DMI              1ZH3F0CK1ZA
+      Fabricante del chasis DMI                         LENOVO
+      Versión del chasis DMI                            Not Available
+      Número de serie del chasis DMI                    LR669NF
+      Identificador del chasis DMI                      No Asset Information
+      Tipo de chasis DMI                                Notebook
+
+
+--------[ Debug - PCI ]-------------------------------------------------------------------------------------------------
+
+    B00 D00 F00:  Intel Auburndale/Arrandale Processor - Host Bridge/DRAM Controller
+                  
+      Offset 000:  86 80 44 00  06 01 90 20  02 00 00 06  00 00 00 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 83 21 
+      Offset 030:  00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 90 D1 FE  00 00 00 00  01 00 D1 FE  00 00 00 00 
+      Offset 050:  00 00 02 00  03 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  01 80 D1 FE  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  FF 03 00 00  00 00 00 00 
+      Offset 0A0:  20 00 C0 07  00 00 00 00  00 00 00 00  00 00 80 7B 
+      Offset 0B0:  00 7C 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  03 03 00 00  00 00 00 00  00 00 00 82 
+      Offset 0E0:  09 00 0C 01  26 61 B1 00  88 00 40 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  0D 00 00 00  AB 0F 18 00  00 00 00 00 
+
+    B00 D01 F00:  Intel Auburndale/Arrandale Processor - PCI Express Graphics Root Port
+                  
+      Offset 000:  86 80 45 00  07 01 10 00  02 00 04 06  10 00 01 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 01 01 00  20 20 00 20 
+      Offset 020:  E0 BF E0 BF  01 C0 F1 DF  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  88 00 00 00  00 00 00 00  10 01 1A 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 02 
+      Offset 080:  01 90 03 C8  08 00 00 00  0D 80 00 00  AA 17 84 21 
+      Offset 090:  05 A0 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  10 00 42 01  00 80 00 00  00 00 00 00  01 2D 21 02 
+      Offset 0B0:  43 00 01 51  80 25 8C 00  00 00 48 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 01 00  03 01 3E 80  AB 0F 18 00  04 F0 10 F0 
+
+    B00 D16 F00:  Intel Ibex Peak PCH - Host Embedded Controller Interface 1 (HECI1) [B-3]
+                  
+      Offset 000:  86 80 64 3B  06 00 10 00  06 00 80 07  00 00 80 00 
+      Offset 010:  04 40 70 F0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 5F 21 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  0A 01 00 00 
+      Offset 040:  45 02 00 00  20 00 01 80  00 00 00 60  00 00 00 00 
+      Offset 050:  01 8C 03 C8  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  05 00 80 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  02 00 00 C0 
+      Offset 0C0:  25 77 6F 6B  2A D2 9A 6A  23 C3 D1 F7  32 75 85 A4 
+      Offset 0D0:  D8 29 7B 3E  F5 3B B0 79  AB F8 69 A9  B9 0B EA 5D 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D1A F00:  Intel Ibex Peak PCH - USB 2.0 EHCI Controller 2 [B-3]
+                  
+      Offset 000:  86 80 3C 3B  06 01 90 02  06 20 03 0C  00 00 00 00 
+      Offset 010:  00 60 70 F0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 63 21 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  10 01 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  01 58 C2 C9  00 80 00 00  0A 98 A0 20  00 00 00 00 
+      Offset 060:  20 20 81 07  00 00 00 00  01 00 00 01  00 20 00 C0 
+      Offset 070:  00 00 DF 3F  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  11 89 0C 13  A0 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  13 00 06 03  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 AA FF 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  84 20 0C 7B 
+      Offset 0F0:  00 00 00 00  88 85 80 00  87 0F 07 08  28 17 1B 30 
+
+    B00 D1B F00:  Intel Ibex Peak PCH - High Definition Audio Controller [B-3]
+                  
+      Offset 000:  86 80 56 3B  06 01 10 00  06 00 03 04  10 00 00 00 
+      Offset 010:  04 00 70 F0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 5E 21 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  16 01 00 00 
+      Offset 040:  01 00 00 07  01 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  01 60 42 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  05 70 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 00 91 00  00 00 00 10  00 08 10 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 04 00 01  00 00 00 00  05 00 09 02  10 70 30 16 
+      Offset 0D0:  0B 00 91 06  10 00 31 16  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1C F00:  Intel Ibex Peak PCH - PCI Express Root Port 1 [B-3]
+                  
+      Offset 000:  86 80 42 3B  04 01 10 00  06 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 02 02 00  F0 00 00 20 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  10 01 04 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  11 4C 11 01 
+      Offset 050:  00 00 01 10  60 B2 04 00  08 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 64 21  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 02 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 10 00 00  02 00 00 00  00 00 11 C0  00 00 00 00 
+      Offset 0E0:  00 00 00 00  06 07 08 00  30 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1C F01:  Intel Ibex Peak PCH - PCI Express Root Port 2 [B-3]
+                  
+      Offset 000:  86 80 44 3B  06 01 10 00  06 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 03 03 00  F0 00 00 00 
+      Offset 020:  30 F0 30 F0  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  11 02 04 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  11 2C 11 02 
+      Offset 050:  42 00 11 30  60 B2 0C 00  08 00 40 01  00 00 00 00 
+      Offset 060:  00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 64 21  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 02 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 10 00 00  00 00 00 00  00 00 11 C0  00 00 00 00 
+      Offset 0E0:  00 0F 00 00  06 07 08 00  31 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1C F02:  Intel Ibex Peak PCH - PCI Express Root Port 3 [B-3]
+                  
+      Offset 000:  86 80 46 3B  04 01 10 00  06 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 04 04 00  F0 00 00 20 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  12 03 04 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  11 4C 11 03 
+      Offset 050:  00 00 01 10  60 B2 14 00  08 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 64 21  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 02 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 10 00 00  02 00 00 00  00 00 11 C0  00 00 00 00 
+      Offset 0E0:  00 00 00 00  06 07 08 00  30 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1C F03:  Intel Ibex Peak PCH - PCI Express Root Port 4 [B-3]
+                  
+      Offset 000:  86 80 48 3B  07 01 10 00  06 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 05 07 00  30 30 00 20 
+      Offset 020:  40 F0 40 F0  01 F0 11 F0  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  13 04 04 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  11 4C 11 04 
+      Offset 050:  00 00 01 10  60 B2 1C 00  08 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 64 21  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 02 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 10 00 00  02 00 00 00  00 00 11 C0  00 00 00 00 
+      Offset 0E0:  00 0F 00 00  06 07 08 00  31 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1C F04:  Intel Ibex Peak PCH - PCI Express Root Port 5 [B-3]
+                  
+      Offset 000:  86 80 4A 3B  04 01 10 00  06 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 08 08 00  F0 00 00 20 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  10 01 04 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  11 4C 11 05 
+      Offset 050:  00 00 01 10  60 B2 24 00  08 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 64 21  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 02 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 10 00 00  02 00 00 00  00 00 11 C0  00 00 00 00 
+      Offset 0E0:  00 00 00 00  06 07 08 00  30 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1C F05:  Intel Ibex Peak PCH - PCI Express Root Port 6 [B-3]
+                  
+      Offset 000:  86 80 4C 3B  07 01 10 00  06 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 09 09 00  40 40 00 00 
+      Offset 020:  F0 FF 00 00  21 F0 21 F0  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  11 02 04 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  11 4C 11 06 
+      Offset 050:  02 00 11 30  60 B2 2C 00  08 00 40 01  00 00 00 00 
+      Offset 060:  00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 64 21  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 02 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 10 00 00  02 00 00 00  00 00 11 C0  00 00 00 00 
+      Offset 0E0:  00 00 00 00  06 07 08 00  30 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1D F00:  Intel Ibex Peak PCH - USB 2.0 EHCI Controller 1 [B-3]
+                  
+      Offset 000:  86 80 34 3B  06 01 90 02  06 20 03 0C  00 00 00 00 
+      Offset 010:  00 70 70 F0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 63 21 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  17 01 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  01 58 C2 C9  00 80 00 00  0A 98 A0 20  00 00 00 00 
+      Offset 060:  20 20 01 06  00 00 00 00  01 00 00 01  00 00 00 C0 
+      Offset 070:  00 00 DF 3F  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  11 89 0C 13  A0 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  13 00 06 03  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 AA FF 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  04 20 55 78 
+      Offset 0F0:  00 00 00 00  88 85 80 00  87 0F 07 08  28 17 1B 30 
+
+    B00 D1E F00:  Intel HM55 Platform Controller Hub [B-3]
+                  
+      Offset 000:  86 80 48 24  07 01 10 00  A6 01 04 06  00 00 01 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 0C 0C 00  F0 00 80 22 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  FF 00 04 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 12 00 10 
+      Offset 050:  0D 00 00 00  AA 17 65 21  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1F F00:  Intel HM55 PCH - LPC Bridge [B-3]
+                  
+      Offset 000:  86 80 09 3B  07 00 10 02  06 00 01 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 66 21 
+      Offset 030:  00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 04 00 00  80 00 00 00  81 11 00 00  10 00 00 00 
+      Offset 050:  F8 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  8A 8A 8A 8B  90 00 00 00  80 80 8B 8B  F8 00 00 00 
+      Offset 070:  0F FF FF FF  80 FF D8 12  00 00 08 2C  80 F0 80 E0 
+      Offset 080:  10 00 0F 3C  11 16 7C 00  69 00 04 00  01 07 0C 00 
+      Offset 090:  00 00 00 00  00 0F 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  04 06 00 00  01 00 02 00  00 4D 00 00  00 03 00 C0 
+      Offset 0B0:  00 00 00 00  00 00 00 00  04 20 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  22 11 00 00  67 45 00 00  CF FF 00 00  00 00 00 00 
+      Offset 0E0:  09 00 10 11  F1 0A E4 0E  40 B7 46 58  06 24 B8 02 
+      Offset 0F0:  01 C0 D1 FE  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1F F02:  Intel Ibex Peak-M PCH - 4-port SATA Controller [B-3]
+                  
+      Offset 000:  86 80 28 3B  05 00 B0 02  06 8A 01 01  00 00 00 00 
+      Offset 010:  01 00 00 00  01 00 00 00  01 00 00 00  01 00 00 00 
+      Offset 020:  11 18 00 00  01 18 00 00  00 00 00 00  AA 17 68 21 
+      Offset 030:  00 00 00 00  70 00 00 00  00 00 00 00  FF 02 00 00 
+      Offset 040:  00 80 73 E3  F0 00 00 00  05 00 02 02  00 00 00 00 
+      Offset 050:  00 00 00 00  54 10 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 B0 03 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 70 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 0C 03 83  83 01 00 0C  00 02 59 00  01 00 00 00 
+      Offset 0A0:  D4 00 00 00  00 00 00 10  00 00 00 00  00 00 00 00 
+      Offset 0B0:  13 00 06 03  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  05 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1F F03:  Intel Ibex Peak PCH - SMBus Controller [B-3]
+                  
+      Offset 000:  86 80 30 3B  03 01 80 02  06 00 05 0C  00 00 00 00 
+      Offset 010:  04 80 70 F0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  21 18 00 00  00 00 00 00  00 00 00 00  AA 17 67 21 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  0A 03 00 00 
+      Offset 040:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  03 04 04 00  00 00 08 08  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B00 D1F F06:  Intel Ibex Peak PCH - Thermal Sensor [B-3]
+                  
+      Offset 000:  86 80 32 3B  02 00 10 00  06 00 80 11  00 00 00 00 
+      Offset 010:  04 90 70 F0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 90 21 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  0A 03 00 00 
+      Offset 040:  05 F0 AF FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  01 80 23 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  87 0F 07 08  00 00 00 00 
+
+    B01 D00 F00:  ATI Mobility Radeon HD 4530/4570 (Lenovo) Video Adapter
+                  
+      Offset 000:  02 10 53 95  07 05 10 00  00 00 00 03  10 00 80 00 
+      Offset 010:  08 00 00 C0  01 20 00 00  00 00 EF BF  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 5B 21 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 5B 21 
+      Offset 050:  01 58 03 06  00 00 00 00  10 A0 12 00  A0 8F 2C 01 
+      Offset 060:  10 09 00 00  01 0D 00 00  43 00 01 11  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  01 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  05 00 81 00  0C F0 E0 FE  00 00 00 00  90 49 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B01 D00 F01:  ATI RV710/730/740 - High Definition Audio Controller
+                  
+      Offset 000:  02 10 38 AA  06 01 10 00  00 00 03 04  10 00 80 00 
+      Offset 010:  00 C0 EE BF  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 5B 21 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  11 02 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 5B 21 
+      Offset 050:  01 58 03 06  00 00 00 00  10 A0 12 00  A0 8F 2C 01 
+      Offset 060:  10 09 00 00  01 0D 00 00  43 00 01 11  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  05 00 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B03 D00 F00:  Intel WiFi Link 1000 BGN HMC Wireless Network Adapter (Lenovo)
+                  
+      Offset 000:  86 80 84 00  06 05 10 00  00 00 80 02  10 00 00 00 
+      Offset 010:  04 00 30 F0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  86 80 15 13 
+      Offset 030:  00 00 00 00  C8 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  01 D0 23 C8  00 00 00 0D 
+      Offset 0D0:  05 E0 81 00  0C F0 E0 FE  00 00 00 00  A0 49 00 00 
+      Offset 0E0:  10 00 01 00  C0 8E 00 10  10 08 19 00  11 9C 06 00 
+      Offset 0F0:  42 01 11 10  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B09 D00 F00:  Realtek RTL8168D/8111D PCI-E Gigabit Ethernet Adapter
+                  
+      Offset 000:  EC 10 68 81  07 05 10 00  03 00 00 02  10 00 00 00 
+      Offset 010:  01 40 00 00  00 00 00 00  0C 40 20 F0  00 00 00 00 
+      Offset 020:  0C 00 20 F0  00 00 00 00  00 00 00 00  AA 17 31 21 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  01 50 C3 FF  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  05 70 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 AC 02 02  C1 8C 90 05  10 50 10 00  11 3C 07 00 
+      Offset 080:  00 00 11 10  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  10 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  11 CC 03 80 
+      Offset 0B0:  04 00 00 00  04 08 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  03 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    BFF D00 F00:  Intel QuickPath Architecture - Generic Non-Core Registers
+                  
+      Offset 000:  86 80 62 2C  06 00 00 00  02 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 96 21 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  20 02 02 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  0D 0C 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  80 01 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    BFF D00 F01:  Intel QuickPath Architecture - System Address Decoder (SAD)
+                  
+      Offset 000:  86 80 01 2D  06 00 00 00  02 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 96 21 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  10 11 11 01  00 11 11 00  00 00 00 00  00 1A 00 00 
+      Offset 050:  01 00 00 E0  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 E0 7B  00 00 00 00  00 0C E0 FF  0F 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  83 07 00 00  C2 0F 00 00  C2 0F 00 00  C2 0F 00 00 
+      Offset 090:  C2 0F 00 00  C2 0F 00 00  C2 0F 00 00  C2 0F 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    BFF D02 F00:  Intel QuickPath Interconnect - QPI Link 0 Control
+                  
+      Offset 000:  86 80 10 2D  06 00 00 00  02 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 96 21 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 01 8F 08  00 00 00 00  00 00 14 00  00 00 00 00 
+      Offset 050:  00 00 00 86  00 00 00 00  55 45 06 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 5F 00  85 06 00 00  00 00 00 F3  00 00 00 00 
+      Offset 0D0:  01 05 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    BFF D02 F01:  Intel QuickPath Interconnect - QPI Physical 0 Control
+                  
+      Offset 000:  86 80 11 2D  06 00 00 00  02 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 96 21 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  09 00 FF F0  01 00 80 0B  00 00 10 00  73 02 00 00 
+      Offset 050:  12 01 0C 12  12 00 00 00  01 00 00 00  01 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 51 C3 10  A0 A0 40 00 
+      Offset 070:  00 00 00 00  FF FF 0F 80  00 00 00 00  FF FF 0F 00 
+      Offset 080:  03 0F 0F 07  00 00 00 00  01 00 00 00  01 00 0F 0F 
+      Offset 090:  82 00 00 00  02 02 01 00  08 08 88 08  02 05 00 00 
+      Offset 0A0:  00 2E 00 00  03 2C 1D 00  84 00 00 06  02 00 00 00 
+      Offset 0B0:  77 15 AE 4D  00 00 00 00  00 00 00 00  01 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  09 0C 09 0C  00 00 00 00  00 00 00 00  03 00 08 00 
+      Offset 0E0:  00 00 02 00  00 00 40 00  00 00 82 24  00 00 00 00 
+      Offset 0F0:  00 00 00 00  42 01 00 00  00 00 00 00  00 00 00 00 
+
+    BFF D02 F02:  Intel QuickPath Interconnect - Flexible Display Interface
+                  
+      Offset 000:  86 80 12 2D  06 00 00 00  02 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 96 21 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    BFF D02 F03:  Intel QuickPath Interconnect - Flexible Display Interface
+                  
+      Offset 000:  86 80 13 2D  06 00 00 00  02 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 96 21 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0044:  Intel Ironlake MCHBAR
+                  
+      Offset 100:  00 08 00 08  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 110:  00 6C 00 00  40 44 02 C2  05 00 00 00  00 00 00 00 
+      Offset 120:  9F 7F 8E 38  5C 60 13 40  05 0D 15 02  9F 56 31 00 
+      Offset 130:  02 13 11 B1  00 60 85 00  78 10 10 02  14 14 1F 0F 
+      Offset 140:  8A 10 10 02  13 13 1F 0E  08 07 27 31  10 10 15 13 
+      Offset 150:  1E 1B 1B DD  0A 08 2A 3E  10 10 13 14  00 04 00 94 
+      Offset 160:  FF FF FF 05  26 00 00 00  00 00 00 00  14 24 24 48 
+      Offset 170:  08 08 08 08  33 43 00 00  00 00 00 00  00 FF FF FF 
+      Offset 180:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 190:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1D0:  3D 03 00 40  02 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1E0:  00 00 00 00  00 00 00 00  04 00 00 00  00 00 00 00 
+      Offset 1F0:  00 02 00 1D  00 00 02 00  00 00 00 00  00 00 00 00 
+      Offset 200:  20 00 20 00  20 00 20 00  88 00 00 00  00 00 00 00 
+      Offset 210:  20 00 0F 00  00 3E 00 00  00 00 00 00  00 00 00 00 
+      Offset 220:  07 00 00 58  00 01 24 0C  01 00 00 00  00 00 00 00 
+      Offset 230:  00 00 08 00  04 00 04 01  02 20 00 00  00 00 03 00 
+      Offset 240:  34 21 00 01  10 97 06 00  00 20 94 08  00 22 03 00 
+      Offset 250:  95 04 56 EE  88 04 78 74  47 E6 0E 56  0E 14 A5 1D 
+      Offset 260:  FF 09 18 0B  FF 00 0D 04  00 40 D0 CF  35 3F 24 03 
+      Offset 270:  00 0E 55 01  04 00 03 00  42 20 36 0C  62 00 00 8B 
+      Offset 280:  00 00 00 00  00 00 00 00  40 50 60 70  80 C0 FE FF 
+      Offset 290:  1C 09 82 02  00 00 01 00  01 00 00 00  7A 07 00 00 
+      Offset 2A0:  17 17 6E 88  48 48 30 00  01 06 06 05  16 14 07 A1 
+      Offset 2B0:  3F 64 00 00  20 40 00 00  00 20 08 00  70 70 70 01 
+      Offset 2C0:  00 CC 09 60  8C 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 2D0:  00 01 20 00  00 1E 23 02  00 00 00 00  00 00 00 00 
+      Offset 2E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 2F0:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+
+    PCI-8086-0044:  Intel Ironlake MCHBAR
+                  
+      Offset 500:  32 01 00 80  00 04 00 00  B3 04 08 1A  00 00 00 00 
+      Offset 510:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 520:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 530:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 540:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 550:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 560:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 570:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 580:  1E C0 29 9B  FF FF 0F 00  00 00 04 00  42 00 86 00 
+      Offset 590:  82 12 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5F0:  00 00 00 00  01 00 00 00  00 00 00 00  00 00 00 80 
+      Offset 600:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 610:  BC 6A 00 01  FB 0B 6A 02  00 00 00 00  00 00 00 00 
+      Offset 620:  07 00 00 58  00 01 24 0C  01 00 00 00  00 00 00 00 
+      Offset 630:  00 00 00 00  00 00 00 01  02 20 00 00  00 00 00 00 
+      Offset 640:  34 21 00 01  10 97 26 00  00 20 94 08  00 22 03 00 
+      Offset 650:  95 04 56 EE  88 04 78 74  47 E6 0E 56  0E 14 A5 1D 
+      Offset 660:  FF 09 08 0B  FF 00 0C 04  00 40 D0 CF  35 3F 24 03 
+      Offset 670:  00 0E 55 01  04 00 02 00  42 20 36 0C  62 00 00 8B 
+      Offset 680:  00 00 00 00  00 00 00 00  40 50 60 70  80 C0 FE FF 
+      Offset 690:  1C 09 82 02  00 00 00 00  00 00 00 00  7A 07 00 00 
+      Offset 6A0:  17 17 6E 88  48 48 30 00  01 06 06 05  16 14 07 A1 
+      Offset 6B0:  3F 64 00 00  20 40 00 00  00 20 08 00  70 70 70 01 
+      Offset 6C0:  A0 14 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 6D0:  00 80 00 00  F8 00 01 00  F8 00 11 00  FE FA 23 00 
+      Offset 6E0:  FA 00 01 00  00 00 00 00  F9 FD 22 00  00 00 00 00 
+      Offset 6F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0044:  Intel Ironlake MCHBAR
+                  
+      Offset 900:  B4 05 00 80  00 04 00 00  00 00 00 00  00 00 00 00 
+      Offset 910:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 920:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 930:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 940:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 950:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 960:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 970:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 980:  00 80 6C 19  FF FF 0F 00  00 00 04 00  42 00 86 00 
+      Offset 990:  82 12 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 9A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 9B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 9C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 9D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 9E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 9F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0044:  Intel Ironlake MCHBAR
+                  
+      Offset 1000:  00 01 01 00  00 04 83 00  83 00 00 40  30 82 83 00 
+      Offset 1010:  D0 BB 00 00  FF FF FF FF  00 00 00 00  B8 00 3F 3F 
+      Offset 1020:  45 77 6C 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1070:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 10A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 10B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 10C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 10D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 10E0:  01 01 01 01  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 10F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0044:  Intel Ironlake MCHBAR
+                  
+      Offset 1100:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1110:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1120:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1130:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1140:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1150:  11 28 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1160:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1170:  80 80 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0044:  Intel Ironlake MCHBAR
+                  
+      Offset 2C00:  C0 08 04 00  00 00 00 00  00 00 00 00  00 36 05 00 
+      Offset 2C10:  12 04 3A 31  00 00 40 00  00 00 00 00  00 00 00 00 
+      Offset 2C20:  10 00 3A 30  00 00 00 00  00 02 00 00  00 00 00 00 
+
+    PCI-8086-3B32:  Intel 5/6/7/8-series PCH TBAR
+                  
+      Offset 00:  01 B8 00 FF  2B 3A 00 00  06 04 40 00  00 00 40 00 
+      Offset 10:  00 00 40 1A  00 00 45 77  00 00 FF 10  00 00 00 00 
+      Offset 20:  00 00 13 01  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 30:  26 0E 00 00  F0 FA 3C 17  00 00 00 00  00 00 00 00 
+      Offset 40:  01 00 00 FF  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 50:  00 00 00 00  00 00 FF FF  01 82 82 82  00 00 11 00 
+      Offset 60:  38 00 00 00  FF FF FF FF  FF FF 00 00  00 00 00 00 
+      Offset 70:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 80:  01 01 00 00  00 00 00 FF  00 00 00 00  00 00 00 00 
+      Offset 90:  95 6B 0B 07  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset C0:  01 01 00 00  00 00 00 FF  00 00 00 00  00 00 00 00 
+      Offset D0:  00 00 00 00  00 00 00 00  3B 36 9F 00  00 00 00 00 
+      Offset E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-3B32:  Intel 5/6/7/8-series PCH TBARB
+                  
+      Offset 00:  01 B8 01 FF  2B 3A 00 00  06 04 31 00  00 00 40 00 
+      Offset 10:  00 00 40 1A  00 00 45 77  00 00 FF 10  00 00 00 00 
+      Offset 20:  00 00 13 01  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 30:  26 0E 00 00  F0 FA 3C 17  00 00 00 00  00 00 00 00 
+      Offset 40:  01 00 00 FF  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 50:  00 00 00 00  00 00 FF FF  01 82 82 82  00 00 11 00 
+      Offset 60:  38 00 00 00  FF FF FF FF  FF FF 00 00  00 00 00 00 
+      Offset 70:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 80:  01 01 00 00  00 00 00 FF  00 00 00 00  00 00 00 00 
+      Offset 90:  13 6C 0B 07  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset C0:  01 01 00 00  00 00 00 FF  00 00 00 00  00 00 00 00 
+      Offset D0:  00 00 00 00  00 00 00 00  3B 36 9F 00  00 00 00 00 
+      Offset E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+
+--------[ Debug - Video BIOS ]------------------------------------------------------------------------------------------
+
+    C000:0000  U.|.!.........................IBM............... 761295520......
+    C000:0040  ................05/04/10,07:52:13................c..4c........[!
+    C000:0080  PA.S.*..S...........BR37325.002.M92.PCI_EXPRESS.DDR3...BR37325.0
+    C000:00C0  02 M92 DDR3 64bit 720e/800m                                     
+    C000:0100     ..... ...(C) 1988-2005, ATI Technologies Inc. .ATOMBIOSBK-ATI
+    C000:0140   VER011.022.009.003.037325.BR37325.002 .546416  .144588  .      
+    C000:0180    .Lenovo_Quanta_GNote2_M92S2XT_DDR3\Config.h...$...ATOM....[...
+    C000:01C0  ....... ..[!..R.....PCIR..S.........|.......ATI ATOMBIOS..!V....
+    C000:0200  .........................V.......LP. .^..fPfQfRfSfUfVfW.........
+    C000:0240  .8.......f......f.(.....2.......)..)..).......i(.}(..(....6..DP
+    C000:0280  . u.........f..f.......LP.....w..DX.......f.......fP. .....fXt..
+    C000:02C0   f.b.......f_f^f]f[fZfYfX.............F.f3..F...F..R......FZ....
+    C000:0300  ......f........f.\.f.L.;.u...f.^.f.N............>...u...........
+    C000:0340  ..f....e.....@.....B.............|..n..~......r.........h.......
+    C000:0380  ......h..h..i...PMID...M......................f.................
+    C000:03C0  .......fPfR.1f...f....fZfX.fPfR.1f...f....fZfX......1.u..:&..u..
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.

@@ -1,0 +1,546 @@
+Solicitado
+Annele Roque
+168
+--------[ AIDA64 Extreme Edition ]--------------------------------------------------------------------------------------
+
+    Versión                                           AIDA64 v3.00.2529 Beta/es
+    Módulo de rendimiento                             4.0.568-x64
+    Página principal                                  http://www.aida64.com/
+    Tipo de informe                                   Asistente de informes
+    Equipo                                            VICEDECANATO-PC
+    Generador                                         Vicedecanato
+    Sistema operativo                                 Microsoft Windows 7 Ultimate 6.1.7600.16385 (Win7 RTM)
+    Fecha                                             2015-07-01
+    Hora                                              10:33
+
+
+--------[ Resumen ]-----------------------------------------------------------------------------------------------------
+
+    Equipo:
+      Tipo de equipo                                    ACPI x64-based PC
+      Sistema operativo                                 Microsoft Windows 7 Ultimate
+      Service Pack del SO                               -
+      Internet Explorer                                 8.0.7600.16385 (IE 8.0 - Windows 7)
+      DirectX                                           DirectX 11.0
+      Nombre del equipo                                 VICEDECANATO-PC
+      Nombre de usuario                                 Vicedecanato
+      Dirección de correo electrónico SMTP              isis@fbio.uh.cu
+      Dominio de inicio de sesión                       Vicedecanato-PC
+      Fecha / Hora                                      2015-07-01 / 10:33
+
+    Placa base:
+      Tipo de CPU                                       QuadCore Intel Core i5-4670S, 3100 MHz (31 x 100)
+      Nombre de la placa base                           Desconocido
+      Chipset de la placa base                          Intel Lynx Point H81, Intel Haswell
+      Memoria del sistema                               3984 MB  (DDR3-1333 DDR3 SDRAM)
+      DIMM1: Kingston 99U5474-026.A00LF                 4 GB DDR3-1333 DDR3 SDRAM  (9-9-9-24 @ 666 MHz)  (8-8-8-22 @ 609 MHz)  (7-7-7-20 @ 533 MHz)  (6-6-6-17 @ 457 MHz)
+      Tipo de BIOS                                      AMI (01/03/2014)
+      Puerto de comunicación                            Puerto de comunicaciones (COM1)
+      Puerto de comunicación                            Puerto de comunicaciones (COM2)
+      Puerto de comunicación                            Puerto de impresora (LPT1)
+
+    Pantalla:
+      Adaptador de video                                Intel(R) HD Graphics 4600  (1842932 KB)
+      Adaptador de video                                Intel(R) HD Graphics 4600  (1842932 KB)
+      Adaptador de video                                Intel(R) HD Graphics 4600  (1842932 KB)
+      Aceleradora 3D                                    Intel HD Graphics 4600
+      Monitor                                           Monitor PnP genérico [NoDB]  (0W00JRDBT8213)
+
+    Multimedia:
+      Adaptador de audio                                Intel Lynx Point HDMI @ Intel Haswell - Mini HD Audio Controller
+      Adaptador de audio                                Realtek ALC662 @ Intel Lynx Point PCH - High Definition Audio Controller
+
+    Almacenamiento:
+      Controlador IDE                                   Intel(R) 8 Series/C220 Series SATA AHCI Controller - 8C02
+      Unidad de disco                                   ADATA USB Flash Drive USB Device  (7 GB, USB)
+      Unidad de disco                                   Generic- Compact Flash USB Device
+      Unidad de disco                                   Generic- M.S./M.S.Pro/HG USB Device
+      Unidad de disco                                   Generic- SD/MMC USB Device
+      Unidad de disco                                   Generic- SD/MMC/M.S.PRO USB Device
+      Unidad de disco                                   Generic- SM/xD-Picture USB Device
+      Unidad de disco                                   Multiple Card  Reader USB Device  (14 GB, USB)
+      Unidad de disco                                   ST1000DM003-1CH162 ATA Device  (1000 GB, 7200 RPM, SATA-III)
+      Unidad de disco                                   WDC WD60 0UE-00KVT0 USB Device  (55 GB, USB)
+      Unidad óptica                                     HL-DT-ST DVDRAM GHC0N ATA Device
+      Estado SMART de los discos duros                  Aceptar
+
+    Particiones:
+      C: (NTFS)                                         99899 MB (65483 MB libre)
+      J: (NTFS)                                         833.9 GB (181.6 GB libre)
+      K: (FAT32)                                        57201 MB (8009 MB libre)
+      Tamaño total                                      987.3 GB (253.3 GB libre)
+
+    Entrada:
+      Teclado                                           Dispositivo de teclado HID
+      Mouse                                             Mouse compatible con HID
+
+    Red:
+      Dirección IP primaria                             169.254.195.200
+      Dirección MAC primaria                            NoAcceso
+      Adaptador de red                                  Realtek PCIe GBE Family Controller  (169.254.195.200)
+
+    Periféricos:
+      Impresora                                         Adobe PDF
+      Impresora                                         Fax
+      Impresora                                         Microsoft XPS Document Writer
+      Controlador USB2                                  Intel Lynx Point PCH - USB 2.0 EHCI Host Controller 1
+      Controlador USB2                                  Intel Lynx Point PCH - USB 2.0 EHCI Host Controller 2
+      Controlador USB3                                  Intel Lynx Point PCH - USB 3.0 xHCI Host Controller
+      Dispositivo USB                                   Dispositivo compuesto USB
+      Dispositivo USB                                   Dispositivo de almacenamiento USB
+      Dispositivo USB                                   Dispositivo de almacenamiento USB
+      Dispositivo USB                                   Dispositivo de almacenamiento USB
+      Dispositivo USB                                   Dispositivo de almacenamiento USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Generic USB Hub
+      Dispositivo USB                                   Generic USB Hub
+
+    DMI:
+      Vendedor del BIOS DMI                             American Megatrends Inc.
+      Versión del BIOS DMI                              P014AP0M
+      Fabricante del sistema DMI                        TSINGHUA TONGFANG COMPUTER
+      Producto del sistema DMI                          H81-M1
+      Versión del sistema DMI                           To be filled by O.E.M.
+      Número de serie del sistema DMI                   To be filled by O.E.M.
+      UUID del sistema DMI                              F658E612-3A29D266-31AE2025-64D50A6C
+      Fabricante de la placa base DMI                   PEGATRON CORPORATION
+      Producto de la placa base DMI                     H81-M1
+      Versión de la placa base DMI                      1.02
+      Número de serie de la placa base DMI              130913240000026
+      Fabricante del chasis DMI                         TSINGHUA TONGFANG COMPUTER
+      Versión del chasis DMI                            
+      Número de serie del chasis DMI                    
+      Identificador del chasis DMI                      To Be Filled By O.E.M.
+      Tipo de chasis DMI                                Desktop Case
+
+
+--------[ Debug - PCI ]-------------------------------------------------------------------------------------------------
+
+    B00 D00 F00:  Intel Haswell-DT - Host Bridge/DRAM Controller
+                  
+      Offset 000:  86 80 00 0C  06 00 90 20  06 00 00 06  00 00 00 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 90 D1 FE  00 00 00 00  01 00 D1 FE  00 00 00 00 
+      Offset 050:  11 02 00 00  31 00 00 00  17 00 10 DF  01 00 00 DA 
+      Offset 060:  05 00 00 F8  00 00 00 00  01 80 D1 FE  00 00 00 00 
+      Offset 070:  00 00 00 FF  00 00 00 00  00 0C 00 FF  7F 00 00 00 
+      Offset 080:  10 11 11 00  00 00 11 00  1A 00 00 00  00 00 00 00 
+      Offset 090:  01 00 00 00  01 00 00 00  01 00 D0 1F  01 00 00 00 
+      Offset 0A0:  01 00 00 00  01 00 00 00  01 00 E0 1F  01 00 00 00 
+      Offset 0B0:  01 00 20 DB  01 00 00 DB  01 00 00 DA  01 00 20 DF 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  09 00 0C 01  61 E0 04 62  D0 00 54 44  00 00 00 00 
+      Offset 0F0:  00 00 00 00  C8 0F 03 00  00 00 00 00  00 00 00 00 
+
+    B00 D02 F00:  Intel Haswell-DT GT2 - Integrated Graphics Controller
+                  
+      Offset 000:  86 80 12 04  07 04 90 00  06 00 00 03  00 00 00 00 
+      Offset 010:  04 00 80 F7  00 00 00 00  0C 00 00 E0  00 00 00 00 
+      Offset 020:  01 F0 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  90 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  09 00 0C 01  61 E0 04 62  D0 00 54 44  00 00 00 00 
+      Offset 050:  11 02 00 00  31 00 00 00  00 00 00 00  01 00 20 DB 
+      Offset 060:  00 00 02 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  05 D0 01 00  0C F0 E0 FE  90 49 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  13 00 06 03  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  01 A4 22 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 80 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 06 00  18 40 9E D9 
+
+    B00 D03 F00:  Intel Haswell - Mini HD Audio Controller
+                  
+      Offset 000:  86 80 0C 0C  06 00 10 00  06 00 03 04  10 00 00 00 
+      Offset 010:  04 40 D1 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  10 01 00 00 
+      Offset 040:  00 00 00 00  61 E0 04 62  D0 00 54 44  31 00 00 00 
+      Offset 050:  01 60 02 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  05 70 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 00 91 00  C0 0F 00 10  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D14 F00:  Intel Lynx Point PCH - USB 3.0 xHCI Host Controller
+                  
+      Offset 000:  86 80 31 8C  00 04 90 02  05 30 03 0C  00 00 00 00 
+      Offset 010:  04 00 D0 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  70 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  FD 01 36 80  89 C6 0F 80  00 00 00 00  00 00 00 00 
+      Offset 050:  9F 6E 88 07  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  30 20 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 80 C2 C1  0B 01 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 00 B6 00  0C F0 E0 FE  00 00 00 00  A8 49 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  40 01 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  0F 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  0F 00 30 00  03 00 0C 00  03 0C 30 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  FF 0F 00 00  00 00 00 00  03 00 00 00 
+      Offset 0E0:  F4 01 00 00  00 00 00 00  00 00 00 00  D8 D8 D8 08 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D16 F00:  Intel Lynx Point PCH - Host Embedded Controller Interface 1 (HECI1) [C-1]
+                  
+      Offset 000:  86 80 3A 8C  06 04 10 00  04 00 80 07  00 00 80 00 
+      Offset 010:  04 E0 D1 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  45 02 00 1E  10 00 01 80  06 23 00 60  F0 0F 00 10 
+      Offset 050:  01 8C 03 C8  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 02 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  05 00 81 00 
+      Offset 090:  0C F0 E0 FE  00 00 00 00  80 49 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  02 00 00 C0 
+      Offset 0C0:  01 D4 08 3F  A9 BA B7 16  FE 84 3E 86  F3 4B E2 57 
+      Offset 0D0:  9A 4D 56 5B  BF 03 78 20  24 3D BB B0  A8 9D 2F 70 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D1A F00:  Intel Lynx Point PCH - USB 2.0 EHCI Host Controller 2
+                  
+      Offset 000:  86 80 2D 8C  06 00 90 02  05 20 03 0C  00 00 00 00 
+      Offset 010:  00 C0 D1 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  10 01 00 00 
+      Offset 040:  00 00 00 00  3D 03 3D 07  00 00 00 00  00 00 00 00 
+      Offset 050:  01 58 C2 C9  00 00 00 00  0A 98 A0 20  00 00 00 00 
+      Offset 060:  20 20 81 07  00 00 00 00  01 00 00 01  00 20 00 00 
+      Offset 070:  00 00 DF 3F  03 00 0C 00  4F 01 00 00  8C 40 00 00 
+      Offset 080:  00 00 80 00  11 88 0C 93  70 0D 00 24  01 04 02 00 
+      Offset 090:  00 00 00 00  00 00 00 00  13 00 06 03  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 AA FF 00  00 00 AC 34  27 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  04 00 66 D8 
+      Offset 0F0:  00 00 00 00  88 85 80 00  B1 0F 06 08  08 17 1A 20 
+
+    B00 D1B F00:  Intel Lynx Point PCH - High Definition Audio Controller
+                  
+      Offset 000:  86 80 20 8C  06 00 10 00  05 00 03 04  10 00 00 00 
+      Offset 010:  04 00 D1 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  16 01 00 00 
+      Offset 040:  03 00 00 17  00 00 00 00  00 00 00 00  00 80 00 00 
+      Offset 050:  01 60 42 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  05 70 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 00 91 00  00 00 00 10  00 00 10 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 04 02 01  00 60 00 00  00 0C 85 82  10 00 33 02 
+      Offset 0D0:  00 0C 85 02  10 00 33 02  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1C F00:  Intel Lynx Point PCH - PCI Express Root Port 1
+                  
+      Offset 000:  86 80 10 8C  04 04 10 00  D5 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 01 02 00  F0 00 00 20 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  12 4C 32 01 
+      Offset 050:  00 00 11 70  00 B2 04 00  00 00 40 00  08 00 00 00 
+      Offset 060:  00 00 00 00  17 08 00 00  00 04 00 00  00 00 00 00 
+      Offset 070:  02 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 01 00  0C F0 E0 FE  B0 49 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  0A 1B 64 01  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 01  42 18 00 00  08 80 11 0B  00 00 00 00 
+      Offset 0E0:  00 3F 00 00  00 00 00 00  01 00 00 00  00 00 00 00 
+      Offset 0F0:  50 00 00 00  80 05 00 00  B1 0F 06 08  B0 03 05 01 
+
+    B00 D1C F03:  Intel Lynx Point PCH - PCI Express Root Port 4
+                  
+      Offset 000:  86 80 16 8C  07 04 10 00  D5 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 03 03 00  E0 E0 00 00 
+      Offset 020:  C0 F7 C0 F7  01 F0 01 F0  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 04 00 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  12 3C 32 04 
+      Offset 050:  40 00 11 70  00 B2 1C 00  00 00 40 00  08 00 00 00 
+      Offset 060:  00 00 00 00  17 08 00 00  00 04 00 00  00 00 00 00 
+      Offset 070:  01 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 01 00  0C F0 E0 FE  A0 49 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  0A 1B 64 01  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 01  42 18 00 00  08 80 11 0B  00 00 00 00 
+      Offset 0E0:  00 03 00 00  03 90 03 90  11 00 00 00  00 00 00 00 
+      Offset 0F0:  50 00 00 00  40 00 00 0C  B1 0F 06 08  B0 03 00 04 
+
+    B00 D1D F00:  Intel Lynx Point PCH - USB 2.0 EHCI Host Controller 1
+                  
+      Offset 000:  86 80 26 8C  06 00 90 02  05 20 03 0C  00 00 00 00 
+      Offset 010:  00 B0 D1 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  17 01 00 00 
+      Offset 040:  00 00 00 00  37 01 D0 04  00 00 00 00  00 00 00 00 
+      Offset 050:  01 58 C2 C9  00 00 00 00  0A 98 A0 20  00 00 00 00 
+      Offset 060:  20 20 01 06  00 00 00 00  01 00 00 01  00 20 00 00 
+      Offset 070:  00 00 DF 3F  0F 00 30 00  4F 01 00 00  8C 40 00 00 
+      Offset 080:  00 00 80 00  11 88 0C 93  70 0D 00 24  01 04 02 00 
+      Offset 090:  00 00 00 00  00 00 00 00  13 00 06 03  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 AA FF 00  00 00 D8 D8  27 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  04 30 4B D8 
+      Offset 0F0:  00 00 00 00  88 85 80 00  B1 0F 06 08  08 17 1A 20 
+
+    B00 D1F F00:  Intel H81 Chipset - LPC Interface Controller
+                  
+      Offset 000:  86 80 5C 8C  07 00 10 02  05 00 01 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 18 00 00  80 00 00 00  01 1C 00 00  10 00 00 00 
+      Offset 050:  F8 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  8B 80 8B 8A  90 00 00 00  80 80 8B 8A  F8 F0 00 00 
+      Offset 070:  78 F0 78 F0  78 F0 78 F0  78 F0 78 F0  78 F0 78 F0 
+      Offset 080:  01 00 07 14  01 0A 7C 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 0F 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  18 5E 80 60  09 18 06 00  00 46 00 00  00 00 00 80 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  33 22 11 00  67 45 00 00  CF FF 00 00  08 00 00 00 
+      Offset 0E0:  09 00 0C 10  00 00 00 00  01 01 F1 91  00 00 00 00 
+      Offset 0F0:  01 C0 D1 FE  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1F F02:  Intel Lynx Point PCH - SATA AHCI Controller (Ports 0-5)
+                  
+      Offset 000:  86 80 02 8C  07 00 B0 02  05 01 06 01  00 00 00 00 
+      Offset 010:  B1 F0 00 00  A1 F0 00 00  91 F0 00 00  81 F0 00 00 
+      Offset 020:  61 F0 00 00  00 A0 D1 F7  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  13 02 00 00 
+      Offset 040:  00 80 00 80  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 A8 03 40  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 70 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  60 0F 30 B0  83 01 00 0F  20 02 5C E0  21 00 00 80 
+      Offset 0A0:  A8 00 00 00  00 00 00 00  12 00 10 00  48 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1F F03:  Intel Lynx Point PCH - SMBus Controller
+                  
+      Offset 000:  86 80 22 8C  03 00 80 02  05 00 05 0C  00 00 00 00 
+      Offset 010:  04 90 D1 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  41 F0 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  0B 03 00 00 
+      Offset 040:  11 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  03 04 04 00  00 00 08 08  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1F F06:  Intel Lynx Point PCH - Thermal Controller
+                  
+      Offset 000:  86 80 24 8C  00 00 10 00  05 00 80 11  00 00 00 00 
+      Offset 010:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  0B 03 00 00 
+      Offset 040:  05 F0 FD F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  01 80 23 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B01 D00 F00:  ITE IT8892 PCI Bridge
+                  
+      Offset 000:  83 12 92 88  07 00 10 00  30 01 04 06  10 00 01 00 
+      Offset 010:  00 00 00 00  00 00 00 00  01 02 02 20  F1 01 20 22 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B03 D00 F00:  Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter
+                  
+      Offset 000:  EC 10 68 81  07 04 10 00  0C 00 00 02  10 00 00 00 
+      Offset 010:  01 E0 00 00  00 00 00 00  04 00 C0 F7  00 00 00 00 
+      Offset 020:  0C 00 00 F0  00 00 00 00  00 00 00 00  0A 1B 64 01 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  01 50 C3 FF  08 01 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  05 70 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 B0 02 02  C0 8C 90 05  07 50 10 00  11 7C 47 00 
+      Offset 080:  40 00 11 10  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  1F 08 0C 00  10 00 00 00  02 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  11 D0 03 80  04 00 00 00  04 08 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  03 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 4000:  29 61 55 11  44 41 33 07  52 15 EF AA  50 59 4A 09 
+      Offset 4010:  07 00 00 00  E9 94 00 00  00 00 00 00  00 00 00 00 
+      Offset 4020:  00 00 10 00  25 00 00 00  04 00 15 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 4280:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 4290:  80 40 00 00  FF 98 00 00  50 14 AE 5A  50 02 00 00 
+      Offset 42A0:  01 00 00 00  00 72 00 41  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 4400:  C6 50 44 10  03 41 22 82  45 55 AB 0A  CA 64 29 05 
+      Offset 4410:  08 00 00 00  C6 14 00 00  00 00 00 00  00 00 00 00 
+      Offset 4420:  00 00 10 00  20 20 20 20  00 00 0E 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 4680:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 4690:  80 40 00 00  0F 98 00 00  04 10 B4 46  00 00 00 00 
+      Offset 46A0:  00 00 00 00  00 B2 00 01  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 4800:  00 00 00 00  00 00 03 00  00 00 00 08  00 00 00 08 
+      Offset 4810:  00 00 00 08  00 00 00 08  00 00 00 08  00 00 00 08 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 4A80:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 4A90:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 5000:  24 00 00 00  10 00 60 00  00 00 60 00  00 00 60 00 
+      Offset 5010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 5880:  60 00 00 00  04 00 00 00  0B 00 00 00  00 00 00 00 
+      Offset 5890:  FF FF 00 00  FF FF 00 00  FF FF 00 00  FF FF 00 00 
+      Offset 58A0:  00 00 00 00  00 00 00 00  72 2C 00 00  00 00 00 00 
+      Offset 58B0:  00 00 00 00  00 00 00 00  00 00 00 00  7F 00 00 00 
+      Offset 58C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 58D0:  FF FF 00 00  FF FF 00 00  FF FF 00 00  FF FF 00 00 
+      Offset 58E0:  00 00 00 00  DE 00 54 00  C9 01 7E 00  00 00 00 00 
+      Offset 58F0:  00 00 00 00  00 00 00 00  00 80 15 00  00 00 20 30 
+      Offset 5900:  00 00 00 00  00 00 00 0C  00 00 00 00  00 00 00 00 
+      Offset 5910:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5920:  09 00 00 00  0D 00 00 00  1A 15 DB 00  6B C8 08 00 
+      Offset 5930:  A0 02 00 00  00 00 00 00  03 0E 0A 00  01 BC 08 08 
+      Offset 5940:  10 D5 26 02  F8 AD 14 00  00 0C 00 00  00 00 00 00 
+      Offset 5950:  00 00 00 00  00 00 04 00  00 1F 01 F3  28 08 08 00 
+      Offset 5960:  A1 36 1F 03  72 82 54 6A  01 0B FF A4  38 DF 36 A9 
+      Offset 5970:  60 CB 2A 1F  E4 78 DA 0A  24 00 00 00  24 00 00 00 
+      Offset 5980:  23 00 00 00  70 EA 87 28  00 00 00 00  00 00 00 00 
+      Offset 5990:  FF 00 00 00  FF 00 00 00  16 07 04 00  00 14 64 00 
+      Offset 59A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 59B0:  F8 02 00 80  14 14 10 00  00 00 00 00  00 00 00 00 
+      Offset 59C0:  00 00 41 88  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW MCHBAR
+                  
+      Offset 5E00:  05 00 00 00  05 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 5E10:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-8C24:  Intel 5/6/7/8-series PCH TBARB
+                  
+      Offset 00:  D8 00 00 00  80 00 00 00  81 00 01 00  80 00 00 00 
+      Offset 10:  54 01 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 20:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 30:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 40:  3C 09 85 B4  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 50:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 60:  00 80 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 70:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 80:  01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 90:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset A0:  00 00 00 00  03 00 00 00  00 00 00 00  00 00 00 00 
+      Offset B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset C0:  0B 39 00 80  01 02 1F C1  00 00 80 05  CF DA 00 00 
+      Offset D0:  20 03 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset E0:  4F 1E 00 80  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset F0:  03 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+
+--------[ Debug - Video BIOS ]------------------------------------------------------------------------------------------
+
+    C000:0000  U.v.`.000000000000.)..(M@...00IBM VGA Compatible BIOS. .........
+    C000:0040  PCIR................................&...........&...............
+    C000:0080  ".................&.................................a...........
+    C000:00C0  .................................DH.....DH.....DH....0DH.....DI.
+    C000:0100  ....DI.....DJ.....DJ....0DJ.....DI....0DI.....DJ.....DK.....DK..
+    C000:0140  ...DK....0.L......L......L....0.L......M......M.....0.n..2....4.
+    C000:0180  ...8....:....<....A.n..C....E....I....K....M....P n..R ...T ...X
+    C000:01C0   ...Z ...\ ...`....a....b ...c....d....e ...f....g....h ...i....
+    C000:0200  j....k ...l....m....n ...o.H..p.H..q H..}....~.... ........ .-.
+    C000:0240  .`............ .1..l...........rQ.. n(U...!....... ....`".......
+    C000:0280  .... ....@.......... .1X. (.........V. .1X. .P........d..@A.&0..
+    C000:02C0  6.......... A. 0.`........0*..Q.*@0p.........4..Q.*@..........H?
+    C000:0300  @0b.2@@.........h[..r.<P....................E...................
+    C000:0340  .........................E...................................For
+    C000:0380   Evaluation Use Only....(........c-'(.+.........................
+    C000:03C0  ........................(........c-'(.+.........................
+
+
+--------[ Debug - Unknown ]---------------------------------------------------------------------------------------------
+
+    Monitor ID      HAI0709: Monitor PnP genérico [NoDB]
+    Monitor Model   HL-185BW2
+    Motherboard     63-0100-000001-00101111-041312-Chipset$00657028_BIOS DATE: 01/03/14 15:12:42 VER: 04.06.05
+    Motherboard     DMIMOBO: PEGATRON CORPORATION H81-M1
+    Motherboard     DMISYS: TSINGHUA TONGFANG COMPUTER H81-M1
+    Motherboard     Unknown
+    NIC PHY         Realtek Unknown (001C-C800)
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.
