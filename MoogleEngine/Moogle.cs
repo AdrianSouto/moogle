@@ -13,20 +13,18 @@ public static class Moogle
         List<string> words = Utils.MakeList(query);
         Vector queryVector = new Vector(words);
         List<SearchItem> result = new List<SearchItem>();
-        foreach(Vector v in Matriz.matrizVectores.Values){                
-            double score = queryVector.ProdEscalar(v);
-            if(score > 0){
+        foreach(Vector v in Matriz.matrizVectores.Values){
+            bool containAny = false;
+            foreach(string s in queryVector.TFIDF.Keys){
+                if(queryVector.TFIDF[s] != 0 && v.TFIDF.ContainsKey(s) && v.TFIDF[s] != 0){
+                    containAny = true;
+                    break;
+                }
+            }
+            if(containAny){
+                double score = v.ProdEscalar(queryVector);
                 string text = File.ReadAllText(v.path);
-                int maxTFIDFPos = 0;
-                Dictionary<string, double> queryOrdered = queryVector.TFIDF.OrderByDescending(x=>x.Value).ToDictionary(x=>x.Key, x=>x.Value);
-                string word = "";
-                foreach(string w in queryOrdered.Keys){
-                    if(v.TFIDF.ContainsKey(w)){
-                        maxTFIDFPos = text.ToLower().IndexOf(w);
-                        word = w;
-                        break;
-                    }
-                }    
+                int maxTFIDFPos = text.ToLower().IndexOf(queryVector.TFIDF.MaxBy(x=> x.Value).Key);
                 int prevDot = Utils.PrevDot(maxTFIDFPos-50, text);
                 string snipet = text.Substring(prevDot, Utils.NextDot(maxTFIDFPos+100, text) - prevDot);
                 result.Add(new SearchItem(v.GetName(), snipet, (float) score));
