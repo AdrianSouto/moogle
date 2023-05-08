@@ -5,6 +5,7 @@ class Vector{
     } = new Dictionary<string, double>();
     public string path = "";
     public int count;
+    public double magnitud;
     public List<string> words = new List<string>();
 
     //Para los docs
@@ -24,9 +25,12 @@ class Vector{
         CalcularTFIDF();
     }
     public void CalcularTFIDF(){
+        magnitud = 0;
         foreach(string w in TFIDF.Keys){
             TFIDF[w] = Matriz.CalculateTF(this, w) * Matriz.CalculateIDF(w);
+            magnitud += TFIDF[w];
         }
+        magnitud = Math.Sqrt(magnitud);
     }
     public string GetName(){
         return path != ""? path.Substring(path.LastIndexOf('/')+1, path.ToLower().IndexOf(".txt") - path.LastIndexOf('/')-1) : "Sin Nombre";
@@ -34,12 +38,16 @@ class Vector{
     public double ProdEscalar(Vector v){
         //Query.ProdEscalar(Documento)
         double sum = 0;
+        v.magnitud = 0;
         foreach(string w in TFIDF.Keys){
             if(v.TFIDF.ContainsKey(w)){
                 double idfWord = Matriz.CalculateIDF(w);
-                sum +=  TFIDF[w] * (Matriz.CalculateTF(v,w) * idfWord) ;
+                double tfidfDOC = (Matriz.CalculateTF(v,w) * idfWord);
+                sum +=  TFIDF[w] * tfidfDOC;
+                v.magnitud += tfidfDOC;
             }
         }
+        v.magnitud = Math.Sqrt(v.magnitud);
         return sum;
     }
     public static Dictionary<string, double> ToCountDictionary(List<string> array, bool isQuery = false){

@@ -14,14 +14,14 @@ public static class Moogle
         Vector queryVector = new Vector(words);
         List<SearchItem> result = new List<SearchItem>();
         foreach(Vector v in Matriz.matrizVectores.Values){                
-            double score = queryVector.ProdEscalar(v);
-            if(score > 0){
+            double score = Matriz.Similitud(queryVector, v, queryVector.ProdEscalar(v));
+            if(score > 0.001){
                 string text = File.ReadAllText(v.path);
                 int maxTFIDFPos = 0;
                 Dictionary<string, double> queryOrdered = queryVector.TFIDF.OrderByDescending(x=>x.Value).ToDictionary(x=>x.Key, x=>x.Value);
                 string word = "";
                 foreach(string w in queryOrdered.Keys){
-                    if(v.TFIDF.ContainsKey(w)){
+                    {
                         maxTFIDFPos = text.ToLower().IndexOf(w);
                         word = w;
                         break;
@@ -34,4 +34,6 @@ public static class Moogle
         }
         return result.OrderByDescending(x=>x.Score).ToArray();
     }
+
+
 }
