@@ -2,65 +2,69 @@ namespace MoogleEngine;
 class Vector{
     public Dictionary<string, double> TFIDF{
         get;
-    }
+    } = new Dictionary<string, double>();
     public string path = "";
-    public int count;
+    public double magnitud;
+    public List<string> words = new List<string>();
 
-    //Para los docs
+    //Constructor para los docs
     public Vector(string path, List<string> listWords){
-
         this.path = path;
-        this.count = listWords.Count();
-        TFIDF = ToCountDictionary(listWords);
-        Matriz.Add(this.GetName(), this);
-
+        //Guardo este vector en mi Matriz
+        Matriz.Add(this);
+        this.words = listWords;
+        CountWords();
     }
-    //Para la query
+    //Constructor para la query
     public Vector(List<string> listWords){
-        this.count = listWords.Count();
-        TFIDF = ToCountDictionary(listWords);
-        CalculateTFIDF();
+        this.words = listWords;
+        path = "query";
+        CountWords();
     }
+    //Forma el nombre del Doc a partir del Path
     public string GetName(){
         return path != ""? path.Substring(path.LastIndexOf('/')+1, path.ToLower().IndexOf(".txt") - path.LastIndexOf('/')-1) : "Sin Nombre";
     }
+    //Calcula el producto escalar de los TFIDF entre 2 vectores 
+    //y calcula las magnitudes de esos vectores
     public double ProdEscalar(Vector v){
+        //Query.ProdEscalar(Documento)
         double sum = 0;
+        v.magnitud = 0;
+        this.magnitud = 0;
         foreach(string w in TFIDF.Keys){
-            if(v.TFIDF[w] != 0){
-                sum+= this.TFIDF[w] * v.TFIDF[w];
+            double idfWord = Matriz.CalculateIDF(w);
+            TFIDF[w] = (Matriz.CalculateTF(this,w) * idfWord);
+            if(v.TFIDF.ContainsKey(w)){
+                double tfidfDOC = (Matriz.CalculateTF(v,w) * idfWord);               
+                sum +=  TFIDF[w] * tfidfDOC;
+                v.magnitud += tfidfDOC;
+                this.magnitud += TFIDF[w];
             }
         }
+        this.magnitud = Math.Sqrt(this.magnitud);
+        v.magnitud = Math.Sqrt(v.magnitud);
         return sum;
     }
-    public static Dictionary<string, double> ToCountDictionary(List<string> array){
-        Dictionary<string, double> d = new Dictionary<string, double>();
-        for(int x = 0; x < array.Count(); x++){
-            if(d.ContainsKey(array[x])){
-                d[array[x]]++;
+    //Llena TFIDF con la cant de veces q aparece la palabra en el doc 
+    //y llena IDF con la cant de docs en los q aparece la palabra
+    public void CountWords(){
+        foreach(string w in words){
+            //Llena TFIDF con la cant de veces q aparece la palabra en el doc
+            if(TFIDF.ContainsKey(w)){
+                TFIDF[w]++;
             }else{
-                d.Add(array[x], 1);
-            }
-        }
-        return d;
-    }
-    public void CalculateTFIDF(){
-        //Ya el IDF debe estar lleno xq esta funcion se usa para el query y el idf se llena al inicio
-        foreach(string w in Matriz.IDF.Keys){
-            if(this.TFIDF.ContainsKey(w)){
-                double x = Matriz.IDF[w];
-
-                TFIDF[w] =  Matriz.CalculateTF(w, this) * Matriz.IDF[w];
-            }else{
-                TFIDF.Add(w, 0);
-            }
-        }
-    }
-    
-    public void Print(bool onlyWithValues = false){
-        foreach(string w in TFIDF.Keys){
-            if(!onlyWithValues || TFIDF[w]!=0)
-                System.Console.WriteLine(w+": "+TFIDF[w]);
+                TFIDF.Add(w, 1);
+                //Llena IDF con la cant de docs en los q aparece la palabra
+                if(path != "query"){
+                    if(Matriz.IDF.ContainsKey(w)){
+                        Matriz.IDF[w]++;
+                    }else{
+                        Matriz.IDF.Add(w, 1);
+                    }
+                }
+                    
+            }      
         }
     }
 }

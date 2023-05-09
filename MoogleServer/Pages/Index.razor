@@ -4,7 +4,7 @@
 
 <h1>🔍 Moogle!</h1>
 
-<input class="p-1 my-4" @bind="query" placeholder="Introduzca su búsqueda">
+<input class="p-1 my-4" @bind="query" placeholder="Introduzca su búsqueda" @onkeyup="KeyPressed">
 
 <button type="default" class="btn btn-primary" @onclick="RunQuery">🔍 Buscar</button>
 
@@ -32,5 +32,10 @@
 
     private void RunQuery() {
         result = Moogle.Query(query);
+    }
+    private void KeyPressed(KeyboardEventArgs e){   
+        if(e.Key == "Enter")
+            RunQuery();
+
     }
 }

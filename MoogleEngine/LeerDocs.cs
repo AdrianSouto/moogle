@@ -1,37 +1,26 @@
 using System.IO;
 using System;
 namespace MoogleEngine;
+
+//Clase que lee los Docs
 public static class LeerDocs{
-    public static List<string> words = new List<string>();
+
+    //Lista que contendra todas las palabras repetidas tantas veces como docs en los q aparezca
+    //Funcion que lee los Docs
     public static void GetData(){
-        //Carpeta de los txt
         string path = "../Content/";
-        //Obtiene todas las direcciones de los archivos txt en esa carpeta
         string[] files = Directory.GetFiles(path, "*.txt");
-        //Mete el todos los textos en un string
-        string allText = ".";
         foreach(string file in files){
-            string text = File.ReadAllText(file).ToLower();
-            allText += text+".";
+            string text = "."+File.ReadAllText(file).ToLower()+".";
+            //Creo una lista con todas las palabras del texto
             List<string> listWords = (Utils.MakeList(text).ToList());
+            //Creo un Vector por cada documento (Al crearse se guarda en mi matriz de docs)
             Vector v = new Vector(
                 file,
                 listWords
             );
         }
-        //Creo un array de las palabras sin los caracteres especiales
-///////////////////////////// Arreglar esto, se demora mucho //////////////////////////////////////////////////////////////////////////////////////////
-        words = Utils.RemoveRepeats((Utils.MakeList(allText).ToList()));
-        Matriz.CalculateTFIDF();
     }
     
         
 }
-
-/*d.TFIDF = d.words.GroupBy(
-                    x => x.Value
-                    )
-                 .ToDictionary(
-                    g => g.Key,
-                    g => ((double) g.Count())
-                );*/

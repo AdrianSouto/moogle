@@ -1,53 +1,37 @@
 namespace MoogleEngine;
 static class Matriz{
-    public static Dictionary<string, Vector> matrizVectores = new Dictionary<string, Vector>();
-    public static Dictionary<string, double> IDF = new Dictionary<string, double>();
+    //Mi lista de vectores (Lo que representa mi matriz)
+    public static List<Vector> matrizVectores = new List<Vector>();
 
-    public static void Add(string s, Vector v){
-        matrizVectores.Add(s,v);
-    }
+    public static Dictionary<string, int> IDF = new Dictionary<string, int>();
 
-    public static double CalculateIDF(string w)
-    {       //Cuenta la cant de docs q contienen la palabra
-        int cont = 0;
-        foreach(Vector v in matrizVectores.Values){
-            if(v.TFIDF.ContainsKey(w)){
-                cont++;
-            }
-        }
+    public static void Add(Vector v){
+        matrizVectores.Add(v);
         
-        double idf = cont!=0? Math.Log((double) matrizVectores.Count()/cont): 0;
-        if(idf > 0.5){
-            IDF[w] = idf;
-            return IDF[w];
+    }
+
+    //Dada una palabra calcula el IDF
+    public static double CalculateIDF(string w)
+    {    
+        //En este punto IDF contiene la cantidad de docs en los que se encuentra cada palabra
+        int cont = IDF.ContainsKey(w)? IDF[w] : 0;
+        double idf = cont != 0? Math.Log((double) matrizVectores.Count()/cont) : 0;
+        //Si el idf es menor o igual a 1 la palabra no es importante
+        if(idf > 1){
+            return idf;
         }else{
             return 0;
         }
     }
-
-    public static void CalculateTFIDF(){
-        List<string> allWords = LeerDocs.words;
-        foreach(string w in allWords){
-            double idf = CalculateIDF(w);
-            foreach(Vector v in matrizVectores.Values){
-                if(IDF.ContainsKey(w)){
-                    v.TFIDF[w] =  CalculateTF(w, v) * idf;
-                }else{
-                    v.TFIDF.Remove(w);
-                }
-            }
-            
-        }
+    public static double CalculateTF(Vector v, string w){
+        return (double)v.TFIDF[w]/v.words.Count;
     }
-
-    
-
-
-    public static double CalculateTF(string w, Vector v){
-        if(v.TFIDF.ContainsKey(w)){
-            return v.TFIDF[w] / v.count;
-        }else{
+    //Calcula la similitud de cosenos
+    public static double Similitud(Vector v1, Vector v2, double prodEscalar){
+        if(v1.magnitud != 0 && v2.magnitud != 0)
+            return prodEscalar/(v1.magnitud * v2.magnitud);
+        else
             return 0;
-        }
     }
+
 }

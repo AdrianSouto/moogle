@@ -23,5 +23,6 @@ app.UseRouting();
 
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
+
 MoogleEngine.LeerDocs.GetData();
 app.Run();
