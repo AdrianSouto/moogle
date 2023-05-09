@@ -18,7 +18,7 @@ public static class Moogle
 
         foreach(Vector v in Matriz.matrizVectores){       
             //Calcula el score por cada vector y solo lo muestra si es mayor a 10^-6         
-            double score = queryVector.ProdEscalar(v);
+            double score = Matriz.Similitud(queryVector, v, queryVector.ProdEscalar(v));
             if(score > Math.Pow(10, -6)){
                 string text = File.ReadAllText(v.path);
                 //Ordena las palabras del query por su TFIDF
@@ -33,7 +33,7 @@ public static class Moogle
                     }      
                 }    
                 //Guarda en el snippet desde punto anterior a 50 caracteres antes de maxTFIDFPos 
-                //hasta el siguiente punto despues de 100 caracteres
+                //hasta el siguinte punto despues de 100 caracteres
                 int prevDot = Utils.PrevDot(maxTFIDFPos-50, text);
                 string snippet = text.Substring(prevDot, Utils.NextDot(maxTFIDFPos+100, text) - prevDot+1);
 

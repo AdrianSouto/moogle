@@ -15,7 +15,7 @@ static class Utils{
     public static int PrevDot(int pos, string text){
         pos = Math.Max(pos - 20, 0);
         if(pos == 0) return 0;
-        int pointPos = text.Substring(pos, 20).IndexOf('.');
+        int pointPos = text.Substring(pos, 20).IndexOf(".");
         if(pointPos != -1)
             return pos + pointPos+1;
         else
@@ -24,8 +24,11 @@ static class Utils{
     }
     //Dado un texto encuentra el punto siguiente a la posicion dada
     public static int NextDot(int pos, string text){
-        pos = Math.Min(pos, text.Length-1);
-        int pointPos = ((text+".").Substring(pos)).IndexOf('.')-1;
-        return pointPos + pos;
+        if(pos+20 >= text.Length-1) return text.Length-1;
+        int pointPos = text.Substring(pos, 20).IndexOf(".");
+        if(pointPos != -1)
+            return pos + pointPos;
+        else
+            return NextDot(pos+20, text);
     }
 }

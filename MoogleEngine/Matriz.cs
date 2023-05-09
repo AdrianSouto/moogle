@@ -26,4 +26,12 @@ static class Matriz{
     public static double CalculateTF(Vector v, string w){
         return (double)v.TFIDF[w]/v.words.Count;
     }
+    //Calcula la similitud de cosenos
+    public static double Similitud(Vector v1, Vector v2, double prodEscalar){
+        if(v1.magnitud != 0 && v2.magnitud != 0)
+            return prodEscalar/(v1.magnitud * v2.magnitud);
+        else
+            return 0;
+    }
+
 }
