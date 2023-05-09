@@ -3,8 +3,9 @@ class Vector{
     public Dictionary<string, double> TFIDF{
         get;
     } = new Dictionary<string, double>();
+
     public string path = "";
-    public double magnitud;
+
     public List<string> words = new List<string>();
 
     //Constructor para los docs
@@ -23,27 +24,21 @@ class Vector{
     }
     //Forma el nombre del Doc a partir del Path
     public string GetName(){
-        return path != ""? path.Substring(path.LastIndexOf('/')+1, path.ToLower().IndexOf(".txt") - path.LastIndexOf('/')-1) : "Sin Nombre";
+        return path.Substring(path.LastIndexOf('/')+1, path.ToLower().IndexOf(".txt") - path.LastIndexOf('/')-1);
     }
     //Calcula el producto escalar de los TFIDF entre 2 vectores 
     //y calcula las magnitudes de esos vectores
     public double ProdEscalar(Vector v){
         //Query.ProdEscalar(Documento)
         double sum = 0;
-        v.magnitud = 0;
-        this.magnitud = 0;
         foreach(string w in TFIDF.Keys){
             double idfWord = Matriz.CalculateIDF(w);
             TFIDF[w] = (Matriz.CalculateTF(this,w) * idfWord);
             if(v.TFIDF.ContainsKey(w)){
                 double tfidfDOC = (Matriz.CalculateTF(v,w) * idfWord);               
                 sum +=  TFIDF[w] * tfidfDOC;
-                v.magnitud += tfidfDOC;
-                this.magnitud += TFIDF[w];
             }
         }
-        this.magnitud = Math.Sqrt(this.magnitud);
-        v.magnitud = Math.Sqrt(v.magnitud);
         return sum;
     }
     //Llena TFIDF con la cant de veces q aparece la palabra en el doc 
