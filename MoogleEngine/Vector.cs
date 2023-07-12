@@ -7,6 +7,7 @@ class Vector{
     public string path = "";
 
     public List<string> words = new List<string>();
+    public static int x = 0;
 
     //Constructor para los docs
     public Vector(string path, List<string> listWords){
@@ -32,19 +33,30 @@ class Vector{
         //Query.ProdEscalar(Documento)
         double sum = 0;
         foreach(string w in TFIDF.Keys){
-            double idfWord = Matriz.CalculateIDF(w);
-            TFIDF[w] = (Matriz.CalculateTF(this,w) * idfWord);
+            double idfWord = Utils.CalculateIDF(w);
+            TFIDF[w] = (Utils.CalculateTF(this,w) * idfWord);
             if(v.TFIDF.ContainsKey(w)){
-                double tfidfDOC = (Matriz.CalculateTF(v,w) * idfWord);               
+                double tfidfDOC = (Utils.CalculateTF(v,w) * idfWord);               
                 sum +=  TFIDF[w] * tfidfDOC;
             }
         }
         return sum;
     }
+
+    public double NormaVector(){
+        double norma = 0;
+        foreach(string s in TFIDF.Keys){
+           double  d= TFIDF[s];
+            norma += Math.Pow(d,2);
+        }
+        return Math.Sqrt(norma);
+    }
+
     //Llena TFIDF con la cant de veces q aparece la palabra en el doc 
     //y llena IDF con la cant de docs en los q aparece la palabra
     public void CountWords(){
         foreach(string w in words){
+            x++;
             //Llena TFIDF con la cant de veces q aparece la palabra en el doc
             if(TFIDF.ContainsKey(w)){
                 TFIDF[w]++;

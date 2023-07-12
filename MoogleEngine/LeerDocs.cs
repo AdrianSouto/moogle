@@ -3,8 +3,7 @@ using System;
 namespace MoogleEngine;
 
 //Clase que lee los Docs
-public static class LeerDocs{
-
+public static class LeerDocs{  
     //Lista que contendra todas las palabras repetidas tantas veces como docs en los q aparezca
     //Funcion que lee los Docs
     public static void GetData(){

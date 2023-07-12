@@ -1,41 +1,82 @@
 ﻿@page "/"
 
 <PageTitle>Moogle!</PageTitle>
+<div class="container-fluid h-100 w-100">
 
-<h1>🔍 Moogle!</h1>
-
-<input class="p-1 my-4" @bind="query" placeholder="Introduzca su búsqueda" @onkeyup="KeyPressed">
-
-<button type="default" class="btn btn-primary" @onclick="RunQuery">🔍 Buscar</button>
-
-
-@if (!string.IsNullOrEmpty(result.Suggestion)) {
-    <div class="suggestion">
-        <p>¿Quisiste decir <strong><a href="#">@result.Suggestion</a></strong>?</p>
-    </div>
-}
-
-<ul class="results">
-@foreach (var item in result.Items()) {
-    <li>
-        <div class="item">
-            <p class="title">@item.Title</p>
-            <p>... @item.Snippet ...</p>
+    <h1>Moogle!🔍</h1>
+    <div class="row d-flex  justify-content-center w-100">
+        <div class="input-group mb-3 w-50 m-5">
+          <input type="text" class="form-control" @bind="query" @onkeyup="KeyPressed"placeholder="Introduzca su búsqueda" aria-label="Introduzca su búsqueda" aria-describedby="Buscar">
+          <button class="btn btn-outline-primary" @onclick="RunQuery" type="button">🔍 Buscar</button>
         </div>
-    </li>
-}
-</ul>
+
+    </div>
+
+    <!--<input class="p-1 my-4" @bind="query" placeholder="Introduzca su búsqueda" @onkeyup="KeyPressed">
+
+    <button type="default" class="btn btn-primary" @onclick="RunQuery">🔍 Buscar</button>-->
+
+
+    @if (!string.IsNullOrEmpty(result.Suggestion)) {
+        @if(searched){
+            milis = Environment.TickCount - start;
+            searched = false;
+        }
+        <p>La búsqueda fue realizada en: <strong>@(milis/1000)s</strong></p>
+
+        <!--<div class="suggestion">
+            <p>¿Quisiste decir <strong><a href="#">@result.Suggestion</a></strong>?</p>
+        </div>-->
+    }
+    @if (result.Items().Count() == 0 && !noSearch) {
+        <div class="row d-flex  justify-content-center w-100 pt-3">
+            <lottie-player
+                 autoplay
+                 loop
+                 mode="normal"
+                 src="lottie/not_found.json"
+                 style="width: 500px"
+                >
+            </lottie-player>
+        </div>
+    }
+
+
+    <ul class="results">
+    @foreach (var item in result.Items()) {
+        var path = item.Path;
+        <div class="row d-flex  justify-content-center w-100">
+            <div class="col-9 my-3 bg-secondary rounded-3 pt-3">
+                <div class="item p-2" @onclick="@(e => OpenDoc(path))">
+                    <p class="title">@item.Title</p>
+                    <p>... @item.Snippet ...</p>
+                </div>  
+            </div>
+        </div>
+    }
+    </ul>
+</div>
 
 @code {
     private string query = "";
     private SearchResult result = new SearchResult();
+    private bool noSearch = true;
+    private int start;
+    private double milis;
+    private bool searched = false;
 
     private void RunQuery() {
+        start = Environment.TickCount;
         result = Moogle.Query(query);
+        noSearch = false;
+        searched = true;
     }
     private void KeyPressed(KeyboardEventArgs e){   
         if(e.Key == "Enter")
             RunQuery();
 
+    }
+    private void OpenDoc(String path){
+       // FileStream fs = File.Open(@"D:/Trabajo\Universidad/MIO/Proyectos/moogle/Content/Abecedario.txt", FileMode.Open, FileAccess.Read, FileShare.None);
     }
 }
